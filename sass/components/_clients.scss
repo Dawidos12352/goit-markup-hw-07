@@ -1,0 +1,27 @@
+.client{
+    &__icons {
+    display: flex;
+    gap: $space-gap;
+    margin-top: 50px;
+    }
+  
+    &__icon {
+    border: 1px solid $icon-color;
+    border-radius: 4px;
+    padding: 17.71px 32px 14.25px 32px;
+    flex-basis: calc((100% - 5 * $space-gap) / 6);
+
+    fill: $icon-color;
+  
+        &:hover,
+        &:focus,
+        &:active {
+        cursor: pointer;
+        border: 1px solid $active-color;
+      
+        fill: $active-color;
+        transition-duration: 250ms;
+        animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+  }
+}

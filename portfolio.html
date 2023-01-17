@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="./css/modern-normalize.min.css" />
-  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="./css/main.min.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -15,25 +15,25 @@
 </head>
 
 <body>
-  <header class="header-border">
+  <header class="header__border">
     <div class="container header">
       <nav class="header__nav">
-        <a class="header__logo link" href="./index.html">Web<span class="header__logo-part">Studio</span></a>
+        <a class="header__logo link" href="./index.html">Web<span class="header__logo--part">Studio</span></a>
         <ul class="header__menu">
           <li>
-            <a class="link header__menu-item" href="agencja">Agencja</a>
+            <a class="link header__menu--item" href="agencja">Agencja</a>
           </li>
           <li>
-            <a class="link header__menu-item portfolio" href="./portfolio.html">Porfolio</a>
+            <a class="link header__menu--item portfolio" href="./portfolio.html">Porfolio</a>
           </li>
           <li>
-            <a class="link header__menu-item kontakt" href="kontakt">Kontakt</a>
+            <a class="link header__menu--item kontakt" href="kontakt">Kontakt</a>
           </li>
         </ul>
       </nav>
       <ul class="header__contacts">
         <li class="header__contact">
-          <a class="link header__contacts-item" href="mailto:info@devstudio.com">
+          <a class="link header__contacts--item" href="mailto:info@devstudio.com">
             <svg class=" header__icon" width="16" height="12">
               <use href="./images/icons.svg#icon-e-mail"></use>
             </svg>
@@ -41,7 +41,7 @@
           </a>
         </li>
         <li class="header__contact">
-          <a class="link header__contacts-item" href="tel:48111111111">
+          <a class="link header__contacts--item" href="tel:48111111111">
             <svg class="header__icon" width="10" height="16">
               <use href="./images/icons.svg#icon-smartphone"></use>
             </svg>
@@ -55,11 +55,11 @@
     <section class="section">
       <div class="container">
         <ul class="menu__btn">
-          <li class="menu__btn-item"><button type="button">Wszystkie</button></li>
-          <li class="menu__btn-item"><button type="button">Strony</button></li>
-          <li class="menu__btn-item"><button type="button">Aplikacje</button></li>
-          <li class="menu__btn-item"><button type="button">Dizajn</button></li>
-          <li class="menu__btn-item"><button type="button">Marketing</button></li>
+          <li class="menu__btn--item"><button type="button">Wszystkie</button></li>
+          <li class="menu__btn--item"><button type="button">Strony</button></li>
+          <li class="menu__btn--item"><button type="button">Aplikacje</button></li>
+          <li class="menu__btn--item"><button type="button">Dizajn</button></li>
+          <li class="menu__btn--item"><button type="button">Marketing</button></li>
         </ul>
         <ul class="gallery">
           <li class="gallery__product">
@@ -208,7 +208,7 @@
   <footer class="footer__background">
     <div class="footer__container">
       <div class="footer__wrapper">
-        <a class="footer__logo link" href="WebStudio">Web<span class="footer__logo-part">Studio</span></a>
+        <a class="footer__logo link" href="WebStudio">Web<span class="footer__logo--part">Studio</span></a>
         <address>
           <ul class="footer__adressess">
             <li>
@@ -225,33 +225,33 @@
           </ul>
         </address>
       </div>
-      <div class="footer__social-media">
+      <div class="footer__social--media">
         <h3 class="footer__title">dołącz do nas</h3>
         <ul class="footer__icons">
           <li class="footer__icon">
-            <a href="#" target="_blank" class="footer__icon-link">
-              <svg class="footer__icon-item" width="44px" height="44px">
+            <a href="#" target="_blank" class="footer__icon--link">
+              <svg class="footer__icon--item" width="44px" height="44px">
                 <use href="./images/icons.svg#icon-instagram"></use>
               </svg>
             </a>
           </li>
           <li class="footer__icon">
-            <a href="#" target="_blank" class="footer__icon-link">
-              <svg class="footer__icon-item" width="44px" height="44px">
+            <a href="#" target="_blank" class="footer__icon--link">
+              <svg class="footer__icon--item" width="44px" height="44px">
                 <use href="./images/icons.svg#icon-twitter"></use>
               </svg>
             </a>
           </li>
           <li class="footer__icon">
-            <a href="#" target="_blank" class="footer__icon-link">
-              <svg class="footer__icon-item" width="44px" height="44px">
+            <a href="#" target="_blank" class="footer__icon--link">
+              <svg class="footer__icon--item" width="44px" height="44px">
                 <use href="./images/icons.svg#icon-facebook"></use>
               </svg>
             </a>
           </li>
           <li class="footer__icon">
-            <a href="#" target="_blank" class="footer__icon-link">
-              <svg class="footer__icon-item" width="44px" height="44px">
+            <a href="#" target="_blank" class="footer__icon--link">
+              <svg class="footer__icon--item" width="44px" height="44px">
                 <use href="./images/icons.svg#icon-linkedin"></use>
               </svg>
             </a>
@@ -265,7 +265,7 @@
             <input class="newsletter__item" type="email" name="email" placeholder="E-mail" />
           </label>
           <button class="newsletter__btn" type="submit"><span>Zapisz się</span>
-            <svg class="icon-icon-send" width="24px" height="24px">
+            <svg class="icon__icon--send" width="24px" height="24px">
               <use href="./images/icons.svg#icon-icon-send"></use>
             </svg></button>
         </form>

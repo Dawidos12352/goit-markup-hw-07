@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="./css/modern-normalize.min.css" />
-  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="./css/main.min.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -15,25 +15,25 @@
 </head>
 
 <body>
-  <header class="header-border">
+  <header class="header__border">
     <div class="container header">
       <nav class="header__nav">
-        <a class="header__logo link" href="./index.html">Web<span class="header__logo-part">Studio</span></a>
+        <a class="header__logo link" href="./index.html">Web<span class="header__logo--part">Studio</span></a>
         <ul class="header__menu">
           <li>
-            <a class="link header__menu-item agencja" href="agencja">Agencja</a>
+            <a class="link header__menu--item agencja" href="agencja">Agencja</a>
           </li>
           <li>
-            <a class="link header__menu-item" href="./portfolio.html">Porfolio</a>
+            <a class="link header__menu--item" href="./portfolio.html">Porfolio</a>
           </li>
           <li>
-            <a class="link header__menu-item kontakt" href="kontakt">Kontakt</a>
+            <a class="link header__menu--item kontakt" href="kontakt">Kontakt</a>
           </li>
         </ul>
       </nav>
       <ul class="header__contacts">
         <li class="header__contact">
-          <a class="link header__contacts-item" href="mailto:info@devstudio.com">
+          <a class="link header__contacts--item" href="mailto:info@devstudio.com">
             <svg class=" header__icon" width="16" height="12">
               <use href="./images/icons.svg#icon-e-mail"></use>
             </svg>
@@ -41,7 +41,7 @@
           </a>
         </li>
         <li class="header__contact">
-          <a class="link header__contacts-item" href="tel:48111111111">
+          <a class="link header__contacts--item" href="tel:48111111111">
             <svg class="header__icon" width="10" height="16">
               <use href="./images/icons.svg#icon-smartphone"></use>
             </svg>
@@ -68,7 +68,7 @@
       <div class="container">
         <ul class="advantages">
           <li class="advantage">
-            <svg class="adventage-icons" width="270" height="120">
+            <svg class="adventage__icons" width="270" height="120">
               <use href="./images/icons.svg#icon-antena"></use>
             </svg>
             <h3 class="advantage__title">lorem ipsum</h3>
@@ -78,7 +78,7 @@
             </p>
           </li>
           <li class="advantage">
-            <svg class="adventage-icons" width="270" height="120">
+            <svg class="adventage__icons" width="270" height="120">
               <use href="./images/icons.svg#icon-time"></use>
             </svg>
             <h3 class="advantage__title">lorem ipsum</h3>
@@ -88,7 +88,7 @@
             </p>
           </li>
           <li class="advantage">
-            <svg class="adventage-icons" width="270" height="120">
+            <svg class="adventage__icons" width="270" height="120">
               <use href="./images/icons.svg#icon-diagram"></use>
             </svg>
             <h3 class="advantage__title">lorem ipsum</h3>
@@ -98,7 +98,7 @@
             </p>
           </li>
           <li class="advantage">
-            <svg class="adventage-icons" width="270" height="120">
+            <svg class="adventage__icons" width="270" height="120">
               <use href="./images/icons.svg#icon-astronauta"></use>
             </svg>
             <h3 class="advantage__title">lorem ipsum</h3>
@@ -117,19 +117,19 @@
         <ul class="offices">
           <li class="office">
             <img src="./images/box1.jpg" alt="Programista koduje" width="370" height="294" />
-            <div class="office__label__background">
+            <div class="office__label--background">
               <p class="office__label">aplikacje komputerowe</p>
             </div>
           </li>
           <li class="office">
             <img src="./images/box2.jpg" alt="Pogramista pisze aplikacje na telefon" width="370" height="294" />
-            <div class="office__label__background">
+            <div class="office__label--background">
               <p class="office__label">aplikacje mobilne</p>
             </div>
           </li>
           <li class="office">
             <img src="./images/box3.jpg" alt="Programista używa aplikacji" width="370" height="294" />
-            <div class="office__label__background">
+            <div class="office__label--background">
               <p class="office__label">rozwiązania graficzne</p>
             </div>
           </li>
@@ -148,29 +148,29 @@
               <p class="card__subtitle">Product Designer</p>
               <ul class="card__icons">
                 <li class="card__icon">
-                  <a href="#" target="_blank" class="card__icon-link">
-                    <svg class="card__icon-item" width="44px" height="44px">
+                  <a href="#" target="_blank" class="card__icon--link">
+                    <svg class="card__icon--item" width="44px" height="44px">
                       <use href="./images/icons.svg#icon-instagram"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="card__icon">
-                  <a href="#" target="_blank" class="card__icon-link">
-                    <svg class="card__icon-item" width="44px" height="44px">
+                  <a href="#" target="_blank" class="card__icon--link">
+                    <svg class="card__icon--item" width="44px" height="44px">
                       <use href="./images/icons.svg#icon-twitter"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="card__icon">
-                  <a href="#" target="_blank" class="card__icon-link">
-                    <svg class="card__icon-item" width="44px" height="44px">
+                  <a href="#" target="_blank" class="card__icon--link">
+                    <svg class="card__icon--item" width="44px" height="44px">
                       <use href="./images/icons.svg#icon-facebook"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="card__icon">
-                  <a href="#" target="_blank" class="card__icon-link">
-                    <svg class="card__icon-item" width="44px" height="44px">
+                  <a href="#" target="_blank" class="card__icon--link">
+                    <svg class="card__icon--item" width="44px" height="44px">
                       <use href="./images/icons.svg#icon-linkedin"></use>
                     </svg>
                   </a>
@@ -185,29 +185,29 @@
               <p class="card__subtitle">Frontend Developer</p>
               <ul class="card__icons">
                 <li class="card__icon">
-                  <a href="#" target="_blank" class="card__icon-link">
-                    <svg class="card__icon-item" width="44px" height="44px">
+                  <a href="#" target="_blank" class="card__icon--link">
+                    <svg class="card__icon--item" width="44px" height="44px">
                       <use href="./images/icons.svg#icon-instagram"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="card__icon">
-                  <a href="#" target="_blank" class="card__icon-link">
-                    <svg class="card__icon-item" width="44px" height="44px">
+                  <a href="#" target="_blank" class="card__icon--link">
+                    <svg class="card__icon--item" width="44px" height="44px">
                       <use href="./images/icons.svg#icon-twitter"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="card__icon">
-                  <a href="#" target="_blank" class="card__icon-link">
-                    <svg class="card__icon-item" width="44px" height="44px">
+                  <a href="#" target="_blank" class="card__icon--link">
+                    <svg class="card__icon--item" width="44px" height="44px">
                       <use href="./images/icons.svg#icon-facebook"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="card__icon">
-                  <a href="#" target="_blank" class="card__icon-link">
-                    <svg class="card__icon-item" width="44px" height="44px">
+                  <a href="#" target="_blank" class="card__icon--link">
+                    <svg class="card__icon--item" width="44px" height="44px">
                       <use href="./images/icons.svg#icon-linkedin"></use>
                     </svg>
                   </a>
@@ -223,29 +223,29 @@
               <p class="card__subtitle">Marketing</p>
               <ul class="card__icons">
                 <li class="card__icon">
-                  <a href="#" target="_blank" class="card__icon-link">
-                    <svg class="card__icon-item" width="44px" height="44px">
+                  <a href="#" target="_blank" class="card__icon--link">
+                    <svg class="card__icon--item" width="44px" height="44px">
                       <use href="./images/icons.svg#icon-instagram"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="card__icon">
-                  <a href="#" target="_blank" class="card__icon-link">
-                    <svg class="card__icon-item" width="44px" height="44px">
+                  <a href="#" target="_blank" class="card__icon--link">
+                    <svg class="card__icon--item" width="44px" height="44px">
                       <use href="./images/icons.svg#icon-twitter"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="card__icon">
-                  <a href="#" target="_blank" class="card__icon-link">
-                    <svg class="card__icon-item" width="44px" height="44px">
+                  <a href="#" target="_blank" class="card__icon--link">
+                    <svg class="card__icon--item" width="44px" height="44px">
                       <use href="./images/icons.svg#icon-facebook"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="card__icon">
-                  <a href="#" target="_blank" class="card__icon-link">
-                    <svg class="card__icon-item" width="44px" height="44px">
+                  <a href="#" target="_blank" class="card__icon--link">
+                    <svg class="card__icon--item" width="44px" height="44px">
                       <use href="./images/icons.svg#icon-linkedin"></use>
                     </svg>
                   </a>
@@ -260,29 +260,29 @@
               <p class="card__subtitle">UI Designer</p>
               <ul class="card__icons">
                 <li class="card__icon">
-                  <a href="#" target="_blank" class="card__icon-link">
-                    <svg class="card__icon-item" width="44px" height="44px">
+                  <a href="#" target="_blank" class="card__icon--link">
+                    <svg class="card__icon--item" width="44px" height="44px">
                       <use href="./images/icons.svg#icon-instagram"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="card__icon">
-                  <a href="#" target="_blank" class="card__icon-link">
-                    <svg class="card__icon-item" width="44px" height="44px">
+                  <a href="#" target="_blank" class="card__icon--link">
+                    <svg class="card__icon--item" width="44px" height="44px">
                       <use href="./images/icons.svg#icon-twitter"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="card__icon">
-                  <a href="#" target="_blank" class="card__icon-link">
-                    <svg class="card__icon-item" width="44px" height="44px">
+                  <a href="#" target="_blank" class="card__icon--link">
+                    <svg class="card__icon--item" width="44px" height="44px">
                       <use href="./images/icons.svg#icon-facebook"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="card__icon">
-                  <a href="#" target="_blank" class="card__icon-link">
-                    <svg class="card__icon-item" width="44px" height="44px">
+                  <a href="#" target="_blank" class="card__icon--link">
+                    <svg class="card__icon--item" width="44px" height="44px">
                       <use href="./images/icons.svg#icon-linkedin"></use>
                     </svg>
                   </a>
@@ -298,43 +298,43 @@
         <h2 class="section__header">Nasi klienci</h2>
         <ul class="client__icons">
           <li class="client__icon">
-            <a href="#" target="_blank" class="client__icon-link">
-              <svg class="client__icon-item" width="106" height="60">
+            <a href="#" target="_blank" class="client__icon--link">
+              <svg class="client__icon--item" width="106" height="60">
                 <use href="./images/icons.svg#icon-Logo1"></use>
               </svg>
             </a>
           </li>
           <li class="client__icon">
-            <a href="#" target="_blank" class="client__icon-link">
-              <svg class="client__icon-item" width="106" height="60">
+            <a href="#" target="_blank" class="client__icon--link">
+              <svg class="client__icon--item" width="106" height="60">
                 <use href="./images/icons.svg#icon-Logo2"></use>
               </svg>
             </a>
           </li>
           <li class="client__icon">
-            <a href="#" target="_blank" class="client__icon-link">
-              <svg class="client__icon-item" width="106" height="60">
+            <a href="#" target="_blank" class="client__icon--link">
+              <svg class="client__icon--item" width="106" height="60">
                 <use href="./images/icons.svg#icon-Logo3"></use>
               </svg>
             </a>
           </li>
           <li class="client__icon">
-            <a href="#" target="_blank" class="client__icon-link">
-              <svg class="client__icon-item" width="106" height="60">
+            <a href="#" target="_blank" class="client__icon--link">
+              <svg class="client__icon--item" width="106" height="60">
                 <use href="./images/icons.svg#icon-Logo4"></use>
               </svg>
             </a>
           </li>
           <li class="client__icon">
-            <a href="#" target="_blank" class="client__icon-link">
-              <svg class="client__icon-item" width="106" height="60">
+            <a href="#" target="_blank" class="client__icon--link">
+              <svg class="client__icon--item" width="106" height="60">
                 <use href="./images/icons.svg#icon-Logo5"></use>
               </svg>
             </a>
           </li>
           <li class="client__icon">
-            <a href="#" target="_blank" class="client__icon-link">
-              <svg class="client__icon-item" width="106" height="60">
+            <a href="#" target="_blank" class="client__icon--link">
+              <svg class="client__icon--item" width="106" height="60">
                 <use href="./images/icons.svg#icon-Logo6"></use>
               </svg>
             </a>
@@ -348,7 +348,7 @@
   <footer class="footer__background">
     <div class="footer__container">
       <div class="footer__wrapper">
-        <a class="footer__logo link" href="WebStudio">Web<span class="footer__logo-part">Studio</span></a>
+        <a class="footer__logo link" href="WebStudio">Web<span class="footer__logo--part">Studio</span></a>
         <address>
           <ul class="footer__adressess">
             <li>
@@ -365,33 +365,33 @@
           </ul>
         </address>
       </div>
-      <div class="footer__social-media">
+      <div class="footer__social--media">
         <h3 class="footer__title">dołącz do nas</h3>
         <ul class="footer__icons">
           <li class="footer__icon">
-            <a href="#" target="_blank" class="footer__icon-link">
-              <svg class="footer__icon-item" width="44px" height="44px">
+            <a href="#" target="_blank" class="footer__icon--link">
+              <svg class="footer__icon--item" width="44px" height="44px">
                 <use href="./images/icons.svg#icon-instagram"></use>
               </svg>
             </a>
           </li>
           <li class="footer__icon">
-            <a href="#" target="_blank" class="footer__icon-link">
-              <svg class="footer__icon-item" width="44px" height="44px">
+            <a href="#" target="_blank" class="footer__icon--link">
+              <svg class="footer__icon--item" width="44px" height="44px">
                 <use href="./images/icons.svg#icon-twitter"></use>
               </svg>
             </a>
           </li>
           <li class="footer__icon">
-            <a href="#" target="_blank" class="footer__icon-link">
-              <svg class="footer__icon-item" width="44px" height="44px">
+            <a href="#" target="_blank" class="footer__icon--link">
+              <svg class="footer__icon--item" width="44px" height="44px">
                 <use href="./images/icons.svg#icon-facebook"></use>
               </svg>
             </a>
           </li>
           <li class="footer__icon">
-            <a href="#" target="_blank" class="footer__icon-link">
-              <svg class="footer__icon-item" width="44px" height="44px">
+            <a href="#" target="_blank" class="footer__icon--link">
+              <svg class="footer__icon--item" width="44px" height="44px">
                 <use href="./images/icons.svg#icon-linkedin"></use>
               </svg>
             </a>
@@ -405,7 +405,7 @@
             <input class="newsletter__item" type="email" name="email" placeholder="E-mail" />
           </label>
           <button class="newsletter__btn" type="submit"><span>Zapisz się</span>
-            <svg class="icon-icon-send" width="24px" height="24px">
+            <svg class="icon__icon--send" width="24px" height="24px">
               <use href="./images/icons.svg#icon-icon-send"></use>
             </svg></button>
         </form>
@@ -416,7 +416,7 @@
 
   <div class="backdrop is-hidden" data-modal>
     <div class="modal">
-      <button class="close__btn modal-close" type="button" data-modal-close>X</button>
+      <button class="close__btn modal--close" type="button" data-modal-close>X</button>
 
       <form class="form" name="users_data_form" autocomplete="off">
         <h2 class="form__header"> Zostaw swoje dane w formularzu poniżej </h2>
@@ -447,17 +447,17 @@
 
         <label class="form__title">
           <span class="form__text">Komentarz</span>
-          <textarea class="form__item-textarea" name="comment" rows="6" placeholder="Wprowadź tekst"></textarea>
+          <textarea class="form__item--textarea" name="comment" rows="6" placeholder="Wprowadź tekst"></textarea>
         </label>
 
-        <div class="form__checkbox-container">
-          <input class="form__checkbox-item" type="checkbox" name="statue_and_policy" value="checked" required
+        <div class="form__checkbox--container">
+          <input class="form__checkbox--item" type="checkbox" name="statue_and_policy" value="checked" required
             id="check" />
-          <label class="form__title-chceckbox">
-            <svg class="form__icon-checkbox" width="13px" height="13px">
+          <label class="form__chceckbox--title">
+            <svg class="form__chceckbox--icon" width="13px" height="13px">
               <use href="./images/icons.svg#icon-check"></use>
             </svg>
-            <span class="form__text-checkbox">Oświadczam iż akceptuję&nbsp;</span>
+            <span class="form__checkbox--text">Oświadczam iż akceptuję&nbsp;</span>
             <a class="form__link" href="#" target="_blank"> Regulamin
             </a>
             &nbsp;i&nbsp;
@@ -465,7 +465,7 @@
           </label>
         </div>
 
-        <button class="form__btn-send" type="submit">Wyślij</button>
+        <button class="form__btn--send" type="submit">Wyślij</button>
       </form>
 
 
