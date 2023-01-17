@@ -41,18 +41,24 @@
     margin: 16px 10px 0 0;
     }
     &__icon{
-        &--link{
-        fill: $icon-color;
-        }
 
         &--link:hover,
         &--link:focus,
         &--link:active {
   
-        fill: $active-color;
+        fill: getColor("active-color");
 
         transition-duration: 250ms;
         animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         }
     }
 }
+.card__icon--link:hover,
+.card__icon--link:focus,
+.card__icon--link:active {
+  
+        fill: $active-color;
+
+        transition-duration: 250ms;
+        animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }

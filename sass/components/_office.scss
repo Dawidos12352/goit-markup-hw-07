@@ -21,19 +21,18 @@
     text-align: center;
     text-transform: uppercase;
     color: $brand-color2;
-    padding: 35px 90px 27px;
-
-        &__background {
-        position: relative;
-        bottom: 73px;
-        width: 370px;
-        height: 70px;
-        background: rgba(47, 48, 58, 0.8);
-        z-index: 2;
-        }
+    padding: 35px 90px 27px; 
   
     }
 }
 .office > img {
     z-index: 1;
   }
+.office__label--background{
+    position: relative;
+    bottom: 73px;
+    width: 370px;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+    z-index: 2;
+    }
