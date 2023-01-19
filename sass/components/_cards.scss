@@ -40,25 +40,20 @@
     justify-content: center;
     margin: 16px 10px 0 0;
     }
-    &__icon{
-
-        &--link:hover,
-        &--link:focus,
-        &--link:active {
-  
-        fill: getColor("active-color");
-
-        transition-duration: 250ms;
-        animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        }
+    &__icon {
+      transition-property: border-color, fill;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      --color1: $icon-color;
+      --color2: $icon-color;
+   
+    &:hover,
+    &:focus,
+    &:active {
+      --color5: var(--brand-color2);
+      --color6: var(--active-color);
+      transition-duration: 250ms;
+      animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
+  }
 }
-.card__icon--link:hover,
-.card__icon--link:focus,
-.card__icon--link:active {
-  
-        fill: $active-color;
-
-        transition-duration: 250ms;
-        animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        }

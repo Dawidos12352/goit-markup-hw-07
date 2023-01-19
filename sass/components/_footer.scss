@@ -39,17 +39,19 @@
     }
     &__icon {
     margin-right: 10px;
+    fill:$icon-color;
     
         &--link {
-        --color6: rgba(255, 255, 255, 0.1);
-        --color5: $brand-color2;
+            --color6: rgba(255, 255, 255, 0.1);
+            --color5: var(--brand-color2);
     
             &:hover,
             &:focus,
             &:active {
-            --color6: $active-color;
-            transition-duration: 250ms;
-            animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+              
+                --color6: var(--active-color);
+                transition-duration: 250ms;
+                animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
             }
         } 
     }

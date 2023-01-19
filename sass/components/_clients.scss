@@ -1,3 +1,4 @@
+
 .client{
     &__icons {
     display: flex;
@@ -7,21 +8,21 @@
   
     &__icon {
     border: 1px solid $icon-color;
-    border-radius: 4px;
-    padding: 17.71px 32px 14.25px 32px;
-    flex-basis: calc((100% - 5 * $space-gap) / 6);
-
     fill: $icon-color;
-  
-        &:hover,
-        &:focus,
-        &:active {
-        cursor: pointer;
-        border: 1px solid $active-color;
-      
-        fill: $active-color;
-        transition-duration: 250ms;
-        animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        }
+    border-radius: 4px;
+    padding: 18px 32px 14px 32px;
+    flex-basis: calc((100% - 5 * $space-gap) / 6);
+    transition-property: border-color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    --color5: $icon-color;
+    --color3: $icon-color;
+      &:hover,
+      &:focus,
+      &:active {
+      border-color: $active-color;
+      fill: $active-color;
+      } 
+    } 
+   
   }
-}
