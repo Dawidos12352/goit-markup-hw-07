@@ -78,71 +78,88 @@
       &__link {
       color: $active-color;
       }
-    }
+      &__btn--send {
+        width: 200px;
+        height: 50px;
+        background: $active-color;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        font-weight: 700;
+        line-height: 1.88;
+        letter-spacing: 0.06em;
+        color: $brand-color2;
+        margin-left: 124px;
+        margin-top: 30px;
+      }
+    
+    
+    
+      &__checkbox {
+        margin-top: 20px;
+        color: $brand-color1;
+      
+              &--container {
+              display: flex;
+              flex-direction: row;
+              gap: 8px;
+              position: relative;
+              margin-left: 15px;
+              }
+              &--title {
+              display: flex;
+              position: absolute;
+              left: 24px; 
+                  &::before {
+                  content: "";
+                  border: solid 2px $brand-color3;
+                  border-radius: 2px;
+                  position: absolute;
+                  height: 15px;
+                  width: 16px;
+                  left: -24px;
+                  display: block;
+                  z-index: 0;
+                  }
+              }
+              &--item {
+              appearance: none;
+              line-height: 1.71;
+              width: 16px;
+              height: 15px;
+      
+              position: absolute;
+              z-index: 2;
+              }
+              &--icon {
+                fill: $brand-color2;
+                width: 16px;
+                height: 15px;
+                position: absolute;
+                z-index: 1;
+                left: -24px;
+              
+                visibility: hidden;
+              
+                    &:hover {
+                    cursor: pointer;
+                    }
+             }
+       }
+}
+     
+      .form__checkbox--item:checked + .form__checkbox--title::before {
+        background-color: $active-color;
+        border: none;
+      }
+      
+     
+      
+      .form__checkbox--item:checked + .form__checkbox--title svg {
+        visibility: visible;
+      }
+
       .form__title:focus-within .form__icon {
         fill: $active-color;
         transition-duration: 250ms;
         animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
       }
-    
-  
-  /*checkbox in form*/
-  
-      .form__checkbox {
-          margin-top: 20px;
-          color: var(--brand-color1);
-        }
-        .form__checkbox--container {
-          display: flex;
-          flex-direction: row;
-          gap: 8px;
-          position: relative;
-          margin-left: 15px;
-        }
-        .form__title--chceckbox {
-          display: flex;
-          position: absolute;
-          left: 24px;
-        }
-        .form__checkbox--item {
-          appearance: none;
-          line-height: 1.71;
-          width: 16px;
-          height: 15px;
-        
-          position: absolute;
-          z-index: 2;
-        }
-        .form__icon--checkbox:hover {
-          cursor: pointer;
-        }
-        .form__title--chceckbox::before {
-          content: "";
-          border: solid 2px var(--brand-color3);
-          border-radius: 2px;
-          position: absolute;
-          height: 15px;
-          width: 16px;
-          left: -24px;
-          display: block;
-          z-index: 0;
-        }
-        .form__checkbox--item:checked + .form__title--chceckbox::before {
-          background-color: var(--active-color);
-          border: none;
-        }
-        
-        .form__icon--checkbox {
-          fill: var(--brand-color2);
-          width: 16px;
-          height: 15px;
-          position: absolute;
-          z-index: 1;
-          left: -24px;
-        
-          visibility: hidden;
-        }
-        
-        .form__checkbox--item:checked + .form__title--chceckbox svg {
-          visibility: visible;
-        }

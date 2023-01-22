@@ -1,4 +1,4 @@
-@import "./utils/variables";
+@import "./utils/variables.scss";
 @import "./base/common";
 @import "./base/container";
 @import "./base/section";
@@ -16,6 +16,7 @@
 @import "./utils/backdrop";
 @import "./utils/is-hidden";
 @import "./components/form";
+@import "./utils/root";
 
 
 

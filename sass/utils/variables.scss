@@ -11,34 +11,4 @@
     $brand-font: "Roboto", sans-serif;
     $space-gap: 30px;
     
-
-    :root{
-        --active-color: #2196f3;
-        --brand-color1: #757575;
-        --brand-color2: #fff;
-        --brand-color3: #212121;
-        --background-color: #2f303a;
-        --icon-color: #afb1b8;
-        --logo-color: #000;
-        --brand-font: "Roboto", sans-serif;
-        --space-gap: 30px;
-        --product-label-color: rgba(33, 150, 243, 0.9);
-    }
-  
-    /*
-    $color: (
-  "active-color": #2196f3,
-  "brand-color1": #757575,
-  "brand-color3": #212121,
-  "brand-color2": #ffffff,
-  "logo-color": #000000,
-  "icon-color": #afb1b8,
-  "background-color": #2f303a,
-  "product-label-color": rgba(33, 150, 243, 0.9)
-    );
-
-@function getColor($key) {
-  @return map-get($color, $key);
-}
-*/
     
