@@ -1,4 +1,4 @@
-@import "./utils/variables.scss";
+@import "./utils/variables";
 @import "./base/common";
 @import "./base/container";
 @import "./base/section";
@@ -13,10 +13,4 @@
 @import "./components/newsletter";
 @import "./components/office";
 @import "./components/modal";
-@import "./utils/backdrop";
-@import "./utils/is-hidden";
 @import "./components/form";
-@import "./utils/root";
-
-
-
