@@ -1,6 +1,7 @@
 .header,
 .header__nav,
-.header__menu {
+.header__menu,
+.header__contacts {
   display: flex;
 }
 .header {
@@ -37,27 +38,20 @@
   &__menu > li:not(:last-child) {
     margin-right: 46px;
   }
-  &__contact {
+  &__contacts {
     display: flex;
     align-items: center;
-    justify-content: center;
-    position: relative;
   }
   &__contacts > li:not(:last-child) {
     margin-right: 50px;
-  }
-  &__contacts {
+
     &--item {
-      color: var (--brand-color1);
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      color: var(--brand-color1);
     }
   }
 
   &__icon {
     margin-right: 10px;
-    /*
 
     &:nth-child(1) {
       position: relative;
@@ -65,16 +59,11 @@
     }
     &:nth-child(2) {
       position: relative;
-      top: 40px;
+      top: 4px;
     }
-    */
   }
 }
-.header__contacts--item:focus,
-.header__contacts--item:active,
-.header__contacts--item:hover {
-  fill: var (--active-color);
-}
+
 .header__menu > li {
   position: relative;
 }
